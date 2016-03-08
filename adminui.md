@@ -14,45 +14,6 @@
     </ul>
 </div>
 ```
-###主标题
-```
-<h2 class="title">字体最大的标题字</h2>
-```
-###主标题
-```
-<h2 class="title">字体最大的标题字</h2>
-```
-### 子标题
-```
-<h3 class="subtitle">副标题字体字号</h3>
-```
-###表单结构和文本框
-```
-<div class="form">
-    <dl>
-        <dt>选择厂商
-        </dt>
-        <dd>
-            <input type="text" placeholder="水印" /><span class="error">＊商品来源：对于经销商发布的商品，新增一个商品来源，开放平台。不给经销商展示，系统写死。</span>
-        </dd>
-    </dl>
-    <dl>
-        <dt>覆盖城市
-        </dt>
-        <dd>
-            <input class="error" type="text" value="＊输入框错误提示" /><span class="error">＊商品来源：对于经销商发布的商品，新增一个商品来源，开放平台。不给经销商展示，系统写死。</span>
-        </dd>
-    </dl>
-    <dl>
-        <dt>公司紧急<br />
-            联系人手机
-        </dt>
-        <dd>
-            <input type="text" value="禁用" disabled="disabled" />
-        </dd>
-    </dl>
-</div>
-```
 ###下拉框
 ```
 <div class="select">
@@ -101,6 +62,46 @@
 <a href="#" class="btn btn-red">红色按钮</a>
 <a href="#" class="btn btn-red btn-big">页面底部的大按钮</a>
 ```
+###主标题
+```
+<h2 class="title">字体最大的标题字</h2>
+```
+###主标题
+```
+<h2 class="title">字体最大的标题字</h2>
+```
+### 子标题
+```
+<h3 class="subtitle">副标题字体字号</h3>
+```
+###表单结构和文本框
+```
+<div class="form">
+    <dl>
+        <dt>选择厂商
+        </dt>
+        <dd>
+            <input type="text" placeholder="水印" /><span class="error">＊商品来源：对于经销商发布的商品，新增一个商品来源，开放平台。不给经销商展示，系统写死。</span>
+        </dd>
+    </dl>
+    <dl>
+        <dt>覆盖城市
+        </dt>
+        <dd>
+            <input class="error" type="text" value="＊输入框错误提示" /><span class="error">＊商品来源：对于经销商发布的商品，新增一个商品来源，开放平台。不给经销商展示，系统写死。</span>
+        </dd>
+    </dl>
+    <dl>
+        <dt>公司紧急<br />
+            联系人手机
+        </dt>
+        <dd>
+            <input type="text" value="禁用" disabled="disabled" />
+        </dd>
+    </dl>
+</div>
+```
+
 ###页面顶部的提示
 ```
 <div class="infomation">
