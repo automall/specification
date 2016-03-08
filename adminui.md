@@ -257,6 +257,7 @@
 ###栅格系统
 对于多列布局，可以使用栅格系统，省得再写类。
 行row，列column，列宽从column-1到column-20
+```
 <div class="row">
     <div class="column column-3">
         <a href="#" class="btn btn-blue">查询</a>
@@ -265,6 +266,7 @@
         <a href="#" class="btn btn-red">重置</a>
     </div>
 </div>
+```
 ###工具类
 相对于普通页面，后台系统页面提供大量的工具类方便开发人员自由组合页面，而不需要前端深度参与
 ```
