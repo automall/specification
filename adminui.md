@@ -66,10 +66,6 @@
 ```
 <h2 class="title">字体最大的标题字</h2>
 ```
-###主标题
-```
-<h2 class="title">字体最大的标题字</h2>
-```
 ### 子标题
 ```
 <h3 class="subtitle">副标题字体字号</h3>
@@ -258,6 +254,17 @@
 </div>
 
 ```
+###栅格系统
+对于多列布局，可以使用栅格系统，省得再写类。
+行row，列column，列宽从column-1到column-20
+<div class="row">
+    <div class="column column-3">
+        <a href="#" class="btn btn-blue">查询</a>
+    </div>
+    <div class="column column-3">
+        <a href="#" class="btn btn-red">重置</a>
+    </div>
+</div>
 ###工具类
 相对于普通页面，后台系统页面提供大量的工具类方便开发人员自由组合页面，而不需要前端深度参与
 ```
@@ -298,7 +305,7 @@
 }
 ```
 
-#内联样式
+###内联样式
 对于文本框及列表列宽等随时变化的的样式，直接写内联样式
 ```
 <tr>
